@@ -38,7 +38,7 @@ You can instead set `OPENROUTER_API_KEY` in the environment; the config file is 
 ## Usage
 
 ```bash
-python main_agent.py main "Create a Python script that sorts a list of dictionaries by a specific key, and write tests for it."
+python main_agent.py main -v "Create a Python script that sorts a list of dictionaries by a specific key, and write tests for it."
 ```
 
 Options:
