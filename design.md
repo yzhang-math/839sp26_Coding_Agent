@@ -38,7 +38,7 @@ To prevent API crashes (TokenLimitExceeded) and hallucination, memory is managed
 
 The system enforces a strict, hierarchical directory structure to prevent destructive path traversal and maintain project hygiene.
 
-"""
+```
 my_project/
 ├── .agent_memo.md                 # Persistent long-term memory
 └── session_20260221_103000/       # Isolated session workspace
@@ -47,7 +47,7 @@ my_project/
     │   ├── sandbox_generator/     # Jailed execution environment
     │   └── deliverables_generator/# Handoff directory
     └── task_analyzer/
-"""
+```
 
 Sandboxing: When delegate_task is called, a sandbox is created. Tools enforce a jail using pathlib relative-path resolution. The run_shell_command tool enforces cwd=sandbox_dir so executed code (pytest, python) cannot easily escape.
 
