@@ -1,0 +1,9 @@
+{
+  "timestamp": "20260221T040247096964Z",
+  "agent": "sub",
+  "label": "turn_1_after_llm",
+  "payload": {
+    "content": "",
+    "tool_calls": "[ChatMessageToolCall(id='call_3bf1a512102e4b5da097dc09', function=ChatMessageToolCallFunction(name='read_file', arguments='{\"filename\": \"generator.py\"}'), TYPE='function'), ChatMessageToolCall(id='call_9311407cdd2a422181c85b49', function=ChatMessageToolCallFunction(name='read_file', arguments='{\"filename\": \"analyzer.py\"}'), TYPE='function'), ChatMessageToolCall(id='call_bc1bffc9a18e498b83c34ff8', function=ChatMessageToolCallFunction(name='read_file', arguments='{\"filename\": \"calculator.py\"}'), TYPE='function')]"
+  }
+}

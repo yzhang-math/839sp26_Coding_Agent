@@ -1,0 +1,10 @@
+{
+  "_comment": "Copy to config.json and set api_key. Read by main_agent.py, sub_agent.py, and tools.py (from this directory or cwd).",
+  "api_key": "your-openrouter-api-key-here",
+  "model": "openai/gpt-4o-mini",
+  "sub_agent_max_turns": 30,
+  "sub_agent_sliding_window": 10,
+  "shell_timeout": 15,
+  "keep_sandbox": false,
+  "sandbox_base_dir": null
+}

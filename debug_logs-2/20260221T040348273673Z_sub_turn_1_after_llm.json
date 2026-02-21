@@ -1,0 +1,9 @@
+{
+  "timestamp": "20260221T040348273673Z",
+  "agent": "sub",
+  "label": "turn_1_after_llm",
+  "payload": {
+    "content": "",
+    "tool_calls": "[ChatMessageToolCall(id='call_be68108fe2574d9d98c30922', function=ChatMessageToolCallFunction(name='read_file', arguments='{\"filename\": \"main.py\"}'), TYPE='function')]"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": "20260221T034443755150Z",
+  "agent": "sub",
+  "label": "turn_1_after_llm",
+  "payload": {
+    "content": "",
+    "tool_calls": "[ChatMessageToolCall(id='call_f452246eb0dc46228d149d07', function=ChatMessageToolCallFunction(name='run_shell_command', arguments='{\"command\": \"ls -la\"}'), TYPE='function')]"
+  }
+}

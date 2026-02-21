@@ -1,0 +1,9 @@
+{
+  "timestamp": "20260221T041109491085Z",
+  "agent": "main",
+  "label": "after_llm_call",
+  "payload": {
+    "content": "",
+    "tool_calls": "[ChatMessageToolCall(id='call_c29eb15b9b8445dab94e3c42', function=ChatMessageToolCallFunction(name='move_file', arguments='{\"dest\": \"calculator.py\", \"source\": \"task_calculator/deliverables_calculator/calculator.py\"}'), TYPE='function')]"
+  }
+}

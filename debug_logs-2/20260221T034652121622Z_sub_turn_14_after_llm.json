@@ -1,0 +1,9 @@
+{
+  "timestamp": "20260221T034652121622Z",
+  "agent": "sub",
+  "label": "turn_14_after_llm",
+  "payload": {
+    "content": "",
+    "tool_calls": "[ChatMessageToolCall(id='call_291708e4354c43a6b915419d', function=ChatMessageToolCallFunction(name='run_shell_command', arguments='{\"command\": \"pwd\"}'), TYPE='function')]"
+  }
+}

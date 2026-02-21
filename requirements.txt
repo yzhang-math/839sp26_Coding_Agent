@@ -1,0 +1,5 @@
+# Coding Agent (entry point: main_agent.py)
+openrouter>=0.1.0
+typer>=0.9.0
+rich>=13.0.0
+aioconsole>=0.7.0

@@ -1,0 +1,9 @@
+{
+  "timestamp": "20260221T041328317663Z",
+  "agent": "sub",
+  "label": "turn_20_after_llm",
+  "payload": {
+    "content": "",
+    "tool_calls": "[ChatMessageToolCall(id='call_aa03ce3cd17f4f0fa49a9162', function=ChatMessageToolCallFunction(name='move_file', arguments='{\"dest\": \"main.py\", \"source\": \"main.py\"}'), TYPE='function')]"
+  }
+}
